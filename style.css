@@ -6,7 +6,8 @@
 }
 html {
   min-height: 100%;
-  background-color: #fff;
+  background: rgb(163,125,69);
+  background: linear-gradient(0deg, rgba(163,125,69,1) 0%, rgba(35,131,53,1) 21%, rgba(57,176,126,1) 45%, rgba(153,245,255,1) 46%, rgba(68,183,218,1) 100%);
 }
 body {
   font-family: 'Fira Code',monospace;
@@ -36,9 +37,9 @@ a:hover {
 }
 .text-gradient {
   background: #0f0;
-  background: -webkit-linear-gradient(120deg,rgb(255, 0, 0) 0,#0084ff 100%);
-  background: -moz-linear-gradient(120deg,rgb(255, 0, 0) 0,#0084ff 100%);
-  background: linear-gradient(160deg,rgb(255, 0, 0) 0,#0084ff 100%);
+  background: -webkit-linear-gradient(120deg,rgb(57,176,126) 0,rgb(153,245,255) 100%);
+  background: -moz-linear-gradient(120deg,rgb(57,176,126) 0,rgb(153,245,255) 100%);
+  background: linear-gradient(160deg,rgb(57,176,126) 0,rgb(153,245,255) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
